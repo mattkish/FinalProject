@@ -70,17 +70,21 @@ def main():
     temperature_ranges = ['<1000', '1000-2000', '2000-3000', '>3000']
     avg_temperatures = [row[0] for row in temperature_data]
     num_planets = [row[1] for row in temperature_data]
-
-    plt.bar(temperature_ranges, avg_temperatures, color='blue')
-    plt.xlabel('Temperature Range (K)')
-    plt.ylabel('Average Temperature (K)')
-    plt.title('Average Temperature by Range')
-    plt.xticks(rotation=0)
+    print(len(temperature_ranges))
+    print(len(avg_temperatures))
+    print(len(num_planets))
+    plt.boxplot(num_planets)
+    plt.xlabel('Data')
+    plt.ylabel('Temperature (K)')
+    plt.title('Temperature Range')
     plt.tight_layout()
     plt.savefig('visualization3.png')
     plt.show()
+    print(temperature_ranges)
+    print(avg_temperatures)
+    print( num_planets)
 
-    plt.pie(num_planets, labels=temperature_ranges, autopct='%1.1f%%', startangle=90)
+    plt.pie( num_planets, autopct='%1.1f%%', startangle=90)
     plt.axis('equal')
     plt.title('Percentage Distribution of Number of Planets by Temperature Range')
     plt.tight_layout()

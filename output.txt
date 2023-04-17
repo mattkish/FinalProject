@@ -1,17 +1,19 @@
 Origin, Average Health
-United States, 3.7
-Greece, 3.533333333333333
-Great Britain, 3.5
-Australia, 3.4444444444444446
-Burma and Thailand, 3.4285714285714284
-England, 3.3333333333333335
-United States and Canada, 3.2857142857142856
-USA, 3.2857142857142856
-Saudi Arabia, 3.25
-California, USA, 3.2
-Brazil, 3.142857142857143
-United States and Thailand, 3.0
-Southeast Asia, 3.0
-Kentucky, USA, 3.0
-Cyprus, 2.8333333333333335
-Unknown, 2.7142857142857144
+California, USA, 5.0
+United States and Canada, 4.0
+United States, 4.0
+Saudi Arabia, 4.0
+Kentucky, USA, 4.0
+Greece, 4.0
+France, 4.0
+Egypt, 4.0
+Australia, 4.0
+Great Britain, 3.6666666666666665
+USA, 3.4
+England, 3.0
+Cyprus, 3.0
+Brazil, 3.0
+Unknown, 2.0
+United States and Thailand, 2.0
+Southeast Asia, 2.0
+Burma and Thailand, 2.0
