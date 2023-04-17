@@ -74,12 +74,4 @@ def get_origin_id(origins, origin):
         if origin == origins[i]:
             origin_id = i
     return origin_id
-        
-    
-
-
-    
-
-        
-
 
