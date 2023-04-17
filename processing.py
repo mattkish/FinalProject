@@ -35,18 +35,19 @@ def main():
 
 # change this to calculate correlation between mass and radius or something
     cur.execute('''
-                SELECT planet_name, mass, radius
+                SELECT planet_name, mass, temperature, host_star_temperature, host_star_mass
                 FROM planets
                 ORDER BY mass DESC
                 ''')
 
-    temperature_data = cur.fetchall()
+    planet_data = cur.fetchall()
 
 
     with open('planet_output.txt', 'w') as f:
-        f.write("Temperature Range, Average Temperature, Number of Planets\n")
-        for row in temperature_data:
-            f.write(f"{row[0]}, {row[1]}, {row[2]}\n")
+        f.write("Planet Name, Mass, Temperature, Host Star Temperature, Host Star Mass\n")
+        for row in planet_data:
+            print (planet_data)
+            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]} \n")
 
     origins = [row[0] for row in origin_health_data]
     avg_health = [row[1] for row in origin_health_data]
@@ -67,24 +68,25 @@ def main():
     plt.savefig('visualization2.png')
     plt.show()
     # Part 4 - Visualize the data for planets
-    temperature_ranges = ['<1000', '1000-2000', '2000-3000', '>3000']
-    avg_temperatures = [row[0] for row in temperature_data]
-    num_planets = [row[1] for row in temperature_data]
-    print(len(temperature_ranges))
-    print(len(avg_temperatures))
-    print(len(num_planets))
-    plt.boxplot(num_planets)
-    plt.xlabel('Data')
-    plt.ylabel('Temperature (K)')
-    plt.title('Temperature Range')
+    planet_name = [row[0] for row in planet_data]
+    planet_mass = [row[1] for row in planet_data]
+    planet_temp = [row[2] for row in planet_data]
+    star_temp = [row[3] for row in planet_data]
+    star_mass = [row[3] for row in planet_data]
+
+    print(len(planet_name))
+    print(len(planet_mass))
+    plt.scatter(planet_mass, star_mass)
+    plt.xlabel('Planet Mass')
+    plt.ylabel('Star Mass')
+    plt.title('How Star Mass effects Planet Mass')
     plt.tight_layout()
     plt.savefig('visualization3.png')
     plt.show()
-    print(temperature_ranges)
-    print(avg_temperatures)
-    print( num_planets)
+    print(star_temp)
+    print(star_mass)
 
-    plt.pie( num_planets, autopct='%1.1f%%', startangle=90)
+    plt.bar(planet_temp, star_temp)
     plt.axis('equal')
     plt.title('Percentage Distribution of Number of Planets by Temperature Range')
     plt.tight_layout()

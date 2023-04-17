@@ -1,101 +1,101 @@
-Temperature Range, Average Temperature, Number of Planets
-HD 222582 b, 8.37, None
-HD 222582 b, 8.37, None
-HD 222582 b, 8.37, None
-HD 89744 b, 8.35, None
-HD 89744 b, 8.35, None
-HD 89744 b, 8.35, None
-HD 89744 b, 8.35, None
-1RXS J160929.1-210524 b, 8.0, 1.664
-HD 168443 b, 7.659, None
-HD 168443 b, 7.659, None
-HD 168443 b, 7.659, None
-70 Virginis b, 7.49, None
-70 Virginis b, 7.49, None
-70 Virginis b, 7.49, None
-70 Virginis b, 7.49, None
-109 Piscium b, 6.383, None
-109 Piscium b, 6.383, None
-109 Piscium b, 6.383, None
-109 Piscium b, 6.383, None
-Tau Boötis b, 5.95, None
-Tau Boötis b, 5.95, None
-Tau Boötis b, 5.95, None
-Gliese 86 b, 4.42, None
-Gliese 86 b, 4.42, None
-Gliese 86 b, 4.42, None
-Gliese 86 b, 4.42, None
-Upsilon Andromedae d, 4.132, None
-Upsilon Andromedae d, 4.132, None
-HD 195019 b, 3.98, None
-HD 195019 b, 3.98, None
-HD 195019 b, 3.98, None
-47 Ursae Majoris b, 2.53, None
-47 Ursae Majoris b, 2.53, None
-47 Ursae Majoris b, 2.53, None
-PSR B1620-26 b, 2.5, None
-PSR B1620-26 b, 2.5, None
-PSR B1620-26 b, 2.5, None
-16 Cygni Bb, 2.38, None
-Gliese 876 b, 2.2756, None
-Gliese 876 b, 2.2756, None
-Gliese 876 b, 2.2756, None
-Gliese 876 b, 2.2756, None
-Iota Horologii b, 2.27, None
-Iota Horologii b, 2.27, None
-Iota Horologii b, 2.27, None
-Upsilon Andromedae c, 1.981, None
-Upsilon Andromedae c, 1.981, None
-Upsilon Andromedae c, 1.981, None
-Gamma Cephei Ab, 1.85, None
-Gamma Cephei Ab, 1.85, None
-Gamma Cephei Ab, 1.85, None
-Gamma Cephei Ab, 1.85, None
-HD 177830 b, 1.69, None
-HD 177830 b, 1.69, None
-HD 177830 b, 1.69, None
-23 Librae b, 1.61, None
-23 Librae b, 1.61, None
-HD 217107 b, 1.3, None
-HD 217107 b, 1.3, None
-HD 217107 b, 1.3, None
-HD 210277 b, 1.29, None
-HD 210277 b, 1.29, None
-HD 210277 b, 1.29, None
-HD 130322 b, 1.15, None
-HD 130322 b, 1.15, None
-HD 130322 b, 1.15, None
-HD 130322 b, 1.15, None
-Rho Coronae Borealis b, 1.045, None
-Rho Coronae Borealis b, 1.045, None
-Rho Coronae Borealis b, 1.045, None
-55 Cancri b, 0.8306, None
-55 Cancri b, 0.8306, None
-55 Cancri b, 0.8306, None
-55 Cancri b, 0.8306, None
-HD 209458 b, 0.73, 1.39
-HD 209458 b, 0.73, 1.39
-HD 209458 b, 0.73, 1.39
-Upsilon Andromedae b, 0.6876, None
-Upsilon Andromedae b, 0.6876, None
-Upsilon Andromedae b, 0.6876, None
-HD 192263 b, 0.56, None
-HD 192263 b, 0.56, None
-HD 192263 b, 0.56, None
-HD 187123 b, 0.523, None
-HD 187123 b, 0.523, None
-HD 187123 b, 0.523, None
-HD 75289 b, 0.49, None
-HD 75289 b, 0.49, None
-HD 75289 b, 0.49, None
-HD 75289 b, 0.49, None
-51 Pegasi b, 0.46, None
-51 Pegasi b, 0.46, None
-51 Pegasi b, 0.46, None
-51 Pegasi b, 0.46, None
-PSR B1257+12 c, 0.014, None
-PSR B1257+12 c, 0.014, None
-PSR B1257+12 c, 0.014, None
-PSR B1257+12 d, 0.012, None
-PSR B1257+12 d, 0.012, None
-PSR B1257+12 d, 0.012, None
+Planet Name, Mass, Temperature, Host Star Temperature, Host Star Mass
+HD 222582 b, 8.37, None, 5790.0, 1.12 
+HD 222582 b, 8.37, None, 5790.0, 1.12 
+HD 222582 b, 8.37, None, 5790.0, 1.12 
+HD 89744 b, 8.35, None, 6291.0, 1.86 
+HD 89744 b, 8.35, None, 6291.0, 1.86 
+HD 89744 b, 8.35, None, 6291.0, 1.86 
+HD 89744 b, 8.35, None, 6291.0, 1.86 
+1RXS J160929.1-210524 b, 8.0, 1700.0, 4060.0, 0.85 
+HD 168443 b, 7.659, None, 5491.0, 0.995 
+HD 168443 b, 7.659, None, 5491.0, 0.995 
+HD 168443 b, 7.659, None, 5491.0, 0.995 
+70 Virginis b, 7.49, None, 5495.0, 1.09 
+70 Virginis b, 7.49, None, 5495.0, 1.09 
+70 Virginis b, 7.49, None, 5495.0, 1.09 
+70 Virginis b, 7.49, None, 5495.0, 1.09 
+109 Piscium b, 6.383, None, 5600.0, 1.11 
+109 Piscium b, 6.383, None, 5600.0, 1.11 
+109 Piscium b, 6.383, None, 5600.0, 1.11 
+109 Piscium b, 6.383, None, 5600.0, 1.11 
+Tau Boötis b, 5.95, None, 6400.0, 1.34 
+Tau Boötis b, 5.95, None, 6400.0, 1.34 
+Tau Boötis b, 5.95, None, 6400.0, 1.34 
+Gliese 86 b, 4.42, None, 5182.0, 0.83 
+Gliese 86 b, 4.42, None, 5182.0, 0.83 
+Gliese 86 b, 4.42, None, 5182.0, 0.83 
+Gliese 86 b, 4.42, None, 5182.0, 0.83 
+Upsilon Andromedae d, 4.132, None, 6183.0, 1.3 
+Upsilon Andromedae d, 4.132, None, 6183.0, 1.3 
+HD 195019 b, 3.98, None, 5751.0, 1.21 
+HD 195019 b, 3.98, None, 5751.0, 1.21 
+HD 195019 b, 3.98, None, 5751.0, 1.21 
+47 Ursae Majoris b, 2.53, None, 5892.0, 1.08 
+47 Ursae Majoris b, 2.53, None, 5892.0, 1.08 
+47 Ursae Majoris b, 2.53, None, 5892.0, 1.08 
+PSR B1620-26 b, 2.5, None, None, 1.35 
+PSR B1620-26 b, 2.5, None, None, 1.35 
+PSR B1620-26 b, 2.5, None, None, 1.35 
+16 Cygni Bb, 2.38, None, 5750.0, 1.04 
+Gliese 876 b, 2.2756, None, 3129.0, 0.32 
+Gliese 876 b, 2.2756, None, 3129.0, 0.32 
+Gliese 876 b, 2.2756, None, 3129.0, 0.32 
+Gliese 876 b, 2.2756, None, 3129.0, 0.32 
+Iota Horologii b, 2.27, None, 6167.0, 1.25 
+Iota Horologii b, 2.27, None, 6167.0, 1.25 
+Iota Horologii b, 2.27, None, 6167.0, 1.25 
+Upsilon Andromedae c, 1.981, None, 6183.0, 1.3 
+Upsilon Andromedae c, 1.981, None, 6183.0, 1.3 
+Upsilon Andromedae c, 1.981, None, 6183.0, 1.3 
+Gamma Cephei Ab, 1.85, None, 4744.0, 1.4 
+Gamma Cephei Ab, 1.85, None, 4744.0, 1.4 
+Gamma Cephei Ab, 1.85, None, 4744.0, 1.4 
+Gamma Cephei Ab, 1.85, None, 4744.0, 1.4 
+HD 177830 b, 1.69, None, 4901.0, 1.7 
+HD 177830 b, 1.69, None, 4901.0, 1.7 
+HD 177830 b, 1.69, None, 4901.0, 1.7 
+23 Librae b, 1.61, None, 5736.0, 1.07 
+23 Librae b, 1.61, None, 5736.0, 1.07 
+HD 217107 b, 1.3, None, 5622.0, 1.0 
+HD 217107 b, 1.3, None, 5622.0, 1.0 
+HD 217107 b, 1.3, None, 5622.0, 1.0 
+HD 210277 b, 1.29, None, 5538.0, 1.01 
+HD 210277 b, 1.29, None, 5538.0, 1.01 
+HD 210277 b, 1.29, None, 5538.0, 1.01 
+HD 130322 b, 1.15, 720.0, 5387.0, 0.92 
+HD 130322 b, 1.15, 720.0, 5387.0, 0.92 
+HD 130322 b, 1.15, 720.0, 5387.0, 0.92 
+HD 130322 b, 1.15, 720.0, 5387.0, 0.92 
+Rho Coronae Borealis b, 1.045, 614.0, 5627.0, 0.889 
+Rho Coronae Borealis b, 1.045, 614.0, 5627.0, 0.889 
+Rho Coronae Borealis b, 1.045, 614.0, 5627.0, 0.889 
+55 Cancri b, 0.8306, 700.0, 5196.0, 0.905 
+55 Cancri b, 0.8306, 700.0, 5196.0, 0.905 
+55 Cancri b, 0.8306, 700.0, 5196.0, 0.905 
+55 Cancri b, 0.8306, 700.0, 5196.0, 0.905 
+HD 209458 b, 0.73, 1459.0, 6091.0, 1.23 
+HD 209458 b, 0.73, 1459.0, 6091.0, 1.23 
+HD 209458 b, 0.73, 1459.0, 6091.0, 1.23 
+Upsilon Andromedae b, 0.6876, None, 6183.0, 1.3 
+Upsilon Andromedae b, 0.6876, None, 6183.0, 1.3 
+Upsilon Andromedae b, 0.6876, None, 6183.0, 1.3 
+HD 192263 b, 0.56, 486.0, 4976.0, 0.66 
+HD 192263 b, 0.56, 486.0, 4976.0, 0.66 
+HD 192263 b, 0.56, 486.0, 4976.0, 0.66 
+HD 187123 b, 0.523, None, 5830.0, 1.0 
+HD 187123 b, 0.523, None, 5830.0, 1.0 
+HD 187123 b, 0.523, None, 5830.0, 1.0 
+HD 75289 b, 0.49, 1260.0, 6117.0, 1.29 
+HD 75289 b, 0.49, 1260.0, 6117.0, 1.29 
+HD 75289 b, 0.49, 1260.0, 6117.0, 1.29 
+HD 75289 b, 0.49, 1260.0, 6117.0, 1.29 
+51 Pegasi b, 0.46, None, 5793.0, 1.12 
+51 Pegasi b, 0.46, None, 5793.0, 1.12 
+51 Pegasi b, 0.46, None, 5793.0, 1.12 
+51 Pegasi b, 0.46, None, 5793.0, 1.12 
+PSR B1257+12 c, 0.014, None, None, 1.4 
+PSR B1257+12 c, 0.014, None, None, 1.4 
+PSR B1257+12 c, 0.014, None, None, 1.4 
+PSR B1257+12 d, 0.012, None, None, 1.4 
+PSR B1257+12 d, 0.012, None, None, 1.4 
+PSR B1257+12 d, 0.012, None, None, 1.4 
