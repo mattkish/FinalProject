@@ -1,4 +1,5 @@
-CREATE TABLE planets {
+DROP TABLE IF EXISTS planets;
+CREATE TABLE planets (
     planet_name VARCHAR(60),
     mass REAL,
     radius REAL,
@@ -8,9 +9,10 @@ CREATE TABLE planets {
     distance_light_year REAL,
     host_star_mass REAL,
     host_star_temperature REAL
-};
+);
 
-CREATE TABLE cats {
+DROP TABLE IF EXISTS cats;
+CREATE TABLE cats (
     origin_id INTEGER,
     family_friendly INTEGER,
     shedding INTEGER,
@@ -26,10 +28,11 @@ CREATE TABLE cats {
     max_life_expectancy INTEGER,
     cat_name VARCHAR(60),
     FOREIGN KEY (origin_id) REFERENCES origins(id)
-};
+);
 
-CREATE TABLE origins {
-    id INTEGER
+DROP TABLE IF EXISTS origins;
+CREATE TABLE origins (
+    id INTEGER,
     origin VARCHAR(60),
     PRIMARY KEY (id)
-};
+);
