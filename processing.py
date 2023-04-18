@@ -97,11 +97,10 @@ def main():
     plt.savefig('visualization3.png')
     plt.show()
 
-    plt.scatter(planet_temp, planet_mass)
-    plt.xlabel('Planet Temp')
+    plt.scatter(planet_radius, planet_mass, color='purple')
+    plt.xlabel('Planet Radius')
     plt.ylabel('Planet Mass')
-    plt.ylim(0, 3)
-    plt.title('Percentage Distribution of Number of Planets by Temperature Range')
+    plt.title("Planet Mass Compared to it's Radius")
     plt.savefig('visualization4.png')
     plt.show()
 
