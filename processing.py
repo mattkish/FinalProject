@@ -31,7 +31,7 @@ def main():
     with open('output.txt', 'w') as f:
         f.write("Origin, Average Health\n")
         for row in origin_health_data:
-            f.write(f"{row[0]}, {row[1]}\n")
+            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}")
 
     cur.execute('''
                 SELECT planet_name, mass, temperature, host_star_temperature, host_star_mass, radius
