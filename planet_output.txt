@@ -1,101 +1,101 @@
 Planet Name, Mass, Temperature, Host Star Temperature, Host Star Mass, Radius
+BD+20 2457 b, 55.59, None, 4259.0, 10.83, None 
+CoRoT-3b, 21.66, 1695.0, 6740.0, 1.37, 1.01 
+2MASS J21402931+1625183 b, 20.95, 2075.0, 2300.0, 0.08, 0.92 
+11 Comae Berenices b, 19.4, None, 4742.0, 2.7, None 
+CT Chamaeleontis b, 17.0, 2600.0, 4200.0, None, 2.2 
+FU Tauri b, 16.0, 2375.0, 2838.0, 0.05, None 
+11 Ursae Minoris b, 14.74, None, 4213.0, 2.78, None 
+30 Arietis Bb, 13.82, None, 6331.0, 1.93, None 
+AB Pictoris b, 13.5, None, 5378.0, 0.9, None 
+2MASS J2126-8140, 13.3, 1800.0, 3490.0, 0.53, None 
+CHXR 73 b, 12.569, None, None, 0.35, None 
+BD+20 2457 c, 12.47, None, 4259.0, 10.83, None 
+Chi Virginis b, 11.09, None, 4445.0, 2.17, None 
+Beta Pictoris b, 11.0, 1612.0, 7099.0, 1.76, 1.65 
+DH Tauri b, 11.0, 2200.0, 3751.0, 0.33, 2.7 
+18 Delphini b, 10.3, None, 4979.0, 2.3, None 
+Gamma Leonis b, 8.78, None, 4330.0, 1.23, None 
 HD 222582 b, 8.37, None, 5790.0, 1.12, None 
-HD 222582 b, 8.37, None, 5790.0, 1.12, None 
-HD 222582 b, 8.37, None, 5790.0, 1.12, None 
-HD 89744 b, 8.35, None, 6291.0, 1.86, None 
-HD 89744 b, 8.35, None, 6291.0, 1.86, None 
-HD 89744 b, 8.35, None, 6291.0, 1.86, None 
 HD 89744 b, 8.35, None, 6291.0, 1.86, None 
 1RXS J160929.1-210524 b, 8.0, 1700.0, 4060.0, 0.85, 1.664 
 HD 168443 b, 7.659, None, 5491.0, 0.995, None 
-HD 168443 b, 7.659, None, 5491.0, 0.995, None 
-HD 168443 b, 7.659, None, 5491.0, 0.995, None 
+Epsilon Tauri b, 7.6, None, 4901.0, 2.7, None 
 70 Virginis b, 7.49, None, 5495.0, 1.09, None 
-70 Virginis b, 7.49, None, 5495.0, 1.09, None 
-70 Virginis b, 7.49, None, 5495.0, 1.09, None 
-70 Virginis b, 7.49, None, 5495.0, 1.09, None 
+4 Ursae Majoris b, 7.1, None, 4415.0, 1.23, None 
+Eta2 Hydri b, 6.54, None, 4970.0, 1.91, None 
 109 Piscium b, 6.383, None, 5600.0, 1.11, None 
-109 Piscium b, 6.383, None, 5600.0, 1.11, None 
-109 Piscium b, 6.383, None, 5600.0, 1.11, None 
-109 Piscium b, 6.383, None, 5600.0, 1.11, None 
+DP Leonis b, 6.28, None, 13500.0, 0.69, None 
 Tau Boötis b, 5.95, None, 6400.0, 1.34, None 
-Tau Boötis b, 5.95, None, 6400.0, 1.34, None 
-Tau Boötis b, 5.95, None, 6400.0, 1.34, None 
-Gliese 86 b, 4.42, None, 5182.0, 0.83, None 
-Gliese 86 b, 4.42, None, 5182.0, 0.83, None 
-Gliese 86 b, 4.42, None, 5182.0, 0.83, None 
+14 Herculis c, 5.8, None, 5518.0, 0.9, None 
+81 Ceti b, 5.3, None, 4785.0, 2.4, None 
+BD-17 63 b, 5.1, None, 4714.0, 0.74, None 
+14 Andromedae b, 4.8, None, 4813.0, 2.2, None 
+14 Herculis b, 4.66, None, 5338.0, 0.9, None 
 Gliese 86 b, 4.42, None, 5182.0, 0.83, None 
 Upsilon Andromedae d, 4.132, None, 6183.0, 1.3, None 
-Upsilon Andromedae d, 4.132, None, 6183.0, 1.3, None 
+2M1207b, 4.0, 1150.0, None, 0.02, None 
 HD 195019 b, 3.98, None, 5751.0, 1.21, None 
-HD 195019 b, 3.98, None, 5751.0, 1.21, None 
-HD 195019 b, 3.98, None, 5751.0, 1.21, None 
-47 Ursae Majoris b, 2.53, None, 5892.0, 1.08, None 
-47 Ursae Majoris b, 2.53, None, 5892.0, 1.08, None 
+42 Draconis b, 3.88, None, 4200.0, 0.98, None 
+55 Cancri d, 3.878, None, 5196.0, 0.91, None 
+CoRoT-2b, 3.47, 1521.0, 5625.0, 0.96, 1.466 
+91 Aquarii b, 3.2, None, 4665.0, 1.4, None 
+CoRoT-6b, 2.96, 1017.0, 6090.0, 1.05, 1.166 
+41 Lyncis b, 2.7, None, 4753.0, 2.1, None 
 47 Ursae Majoris b, 2.53, None, 5892.0, 1.08, None 
 PSR B1620-26 b, 2.5, None, None, 1.35, None 
-PSR B1620-26 b, 2.5, None, None, 1.35, None 
-PSR B1620-26 b, 2.5, None, None, 1.35, None 
+Gliese 317 b, 2.5, None, 3510.0, 0.42, None 
 16 Cygni Bb, 2.38, None, 5750.0, 1.04, None 
 Gliese 876 b, 2.2756, None, 3129.0, 0.32, None 
-Gliese 876 b, 2.2756, None, 3129.0, 0.32, None 
-Gliese 876 b, 2.2756, None, 3129.0, 0.32, None 
-Gliese 876 b, 2.2756, None, 3129.0, 0.32, None 
 Iota Horologii b, 2.27, None, 6167.0, 1.25, None 
-Iota Horologii b, 2.27, None, 6167.0, 1.25, None 
-Iota Horologii b, 2.27, None, 6167.0, 1.25, None 
-Upsilon Andromedae c, 1.981, None, 6183.0, 1.3, None 
-Upsilon Andromedae c, 1.981, None, 6183.0, 1.3, None 
+6 Lyncis b, 2.01, None, 4938.0, 1.44, None 
 Upsilon Andromedae c, 1.981, None, 6183.0, 1.3, None 
 Gamma Cephei Ab, 1.85, None, 4744.0, 1.4, None 
-Gamma Cephei Ab, 1.85, None, 4744.0, 1.4, None 
-Gamma Cephei Ab, 1.85, None, 4744.0, 1.4, None 
-Gamma Cephei Ab, 1.85, None, 4744.0, 1.4, None 
 HD 177830 b, 1.69, None, 4901.0, 1.7, None 
-HD 177830 b, 1.69, None, 4901.0, 1.7, None 
-HD 177830 b, 1.69, None, 4901.0, 1.7, None 
+47 Ursae Majoris d, 1.64, None, 5892.0, 1.03, None 
 23 Librae b, 1.61, None, 5736.0, 1.07, None 
-23 Librae b, 1.61, None, 5736.0, 1.07, None 
-HD 217107 b, 1.3, None, 5622.0, 1.0, None 
-HD 217107 b, 1.3, None, 5622.0, 1.0, None 
+Epsilon Reticuli b, 1.56, None, 4846.0, 1.23, None 
+Epsilon Eridani b, 1.55, None, 5136.0, 0.83, None 
+Gliese 777 b, 1.54, None, 5552.0, 0.99, None 
+94 Ceti b, 1.37, None, 6188.0, 1.36, None 
 HD 217107 b, 1.3, None, 5622.0, 1.0, None 
 HD 210277 b, 1.29, None, 5538.0, 1.01, None 
-HD 210277 b, 1.29, None, 5538.0, 1.01, None 
-HD 210277 b, 1.29, None, 5538.0, 1.01, None 
-HD 130322 b, 1.15, 720.0, 5387.0, 0.92, None 
-HD 130322 b, 1.15, 720.0, 5387.0, 0.92, None 
-HD 130322 b, 1.15, 720.0, 5387.0, 0.92, None 
 HD 130322 b, 1.15, 720.0, 5387.0, 0.92, None 
 Rho Coronae Borealis b, 1.045, 614.0, 5627.0, 0.889, None 
-Rho Coronae Borealis b, 1.045, 614.0, 5627.0, 0.889, None 
-Rho Coronae Borealis b, 1.045, 614.0, 5627.0, 0.889, None 
+BD+14 4559 b, 1.04, None, 4864.0, 0.49, None 
+CoRoT-1b, 1.03, 1898.0, 5950.0, 0.95, 1.49 
+CoRoT-9b, 0.84, 420.0, 5625.0, 0.96, 1.066 
 55 Cancri b, 0.8306, 700.0, 5196.0, 0.905, None 
-55 Cancri b, 0.8306, 700.0, 5196.0, 0.905, None 
-55 Cancri b, 0.8306, 700.0, 5196.0, 0.905, None 
-55 Cancri b, 0.8306, 700.0, 5196.0, 0.905, None 
+23 Librae c, 0.82, None, 5736.0, 1.1, None 
+Gliese 179 b, 0.82, None, 3370.0, 0.36, None 
 HD 209458 b, 0.73, 1459.0, 6091.0, 1.23, 1.39 
-HD 209458 b, 0.73, 1459.0, 6091.0, 1.23, 1.39 
-HD 209458 b, 0.73, 1459.0, 6091.0, 1.23, 1.39 
+CoRoT-4b, 0.72, 1074.0, 6190.0, 1.16, 1.19 
 Upsilon Andromedae b, 0.6876, None, 6183.0, 1.3, None 
-Upsilon Andromedae b, 0.6876, None, 6183.0, 1.3, None 
-Upsilon Andromedae b, 0.6876, None, 6183.0, 1.3, None 
+BD-10 3166 b, 0.59, None, 5393.0, 1.47, None 
 HD 192263 b, 0.56, 486.0, 4976.0, 0.66, None 
-HD 192263 b, 0.56, 486.0, 4976.0, 0.66, None 
-HD 192263 b, 0.56, 486.0, 4976.0, 0.66, None 
-HD 187123 b, 0.523, None, 5830.0, 1.0, None 
-HD 187123 b, 0.523, None, 5830.0, 1.0, None 
+47 Ursae Majoris c, 0.54, None, 5892.0, 1.03, None 
 HD 187123 b, 0.523, None, 5830.0, 1.0, None 
 HD 75289 b, 0.49, 1260.0, 6117.0, 1.29, None 
-HD 75289 b, 0.49, 1260.0, 6117.0, 1.29, None 
-HD 75289 b, 0.49, 1260.0, 6117.0, 1.29, None 
-HD 75289 b, 0.49, 1260.0, 6117.0, 1.29, None 
+CoRoT-5b, 0.467, 1438.0, 6100.0, 1.0, 1.388 
 51 Pegasi b, 0.46, None, 5793.0, 1.12, None 
-51 Pegasi b, 0.46, None, 5793.0, 1.12, None 
-51 Pegasi b, 0.46, None, 5793.0, 1.12, None 
-51 Pegasi b, 0.46, None, 5793.0, 1.12, None 
+BD-08 2823 c, 0.33, None, 4816.0, 0.5, None 
+Gliese 649 b, 0.328, None, 3700.0, 0.54, None 
+79 Ceti b, 0.26, None, 5757.0, 1.11, None 
+54 Piscium b, 0.228, None, 5221.0, 0.8, None 
+55 Cancri c, 0.1714, None, 5196.0, 0.91, None 
+55 Cancri f, 0.141, None, 5196.0, 0.91, None 
+61 Virginis d, 0.072, None, 5577.0, 0.94, None 
+83 Leonis Bb, 0.07, None, 4815.0, 0.48, None 
+Gliese 436 b, 0.07, 686.0, 3479.0, 0.47, 0.372 
+61 Virginis c, 0.057, None, 5577.0, 0.94, None 
+Gliese 581 b, 0.0497, None, 3660.0, 0.31, None 
+BD-08 2823 b, 0.04, None, 4816.0, 0.5, None 
+Gliese 674 b, 0.035, None, 3600.0, 0.35, None 
+CoRoT-7c, 0.02643, None, 5275.0, 0.82, None 
+Gliese 176 b, 0.026, 450.0, 3679.0, 0.45, None 
+55 Cancri e, 0.02542, 1958.0, 5196.0, 0.91, 0.17 
+Gliese 667 Cb, 0.018, None, 3350.0, 0.33, None 
+Gliese 581 c, 0.0173, None, 3660.0, 0.31, None 
+61 Virginis b, 0.016, None, 5577.0, 0.94, None 
 PSR B1257+12 c, 0.014, None, None, 1.4, None 
-PSR B1257+12 c, 0.014, None, None, 1.4, None 
-PSR B1257+12 c, 0.014, None, None, 1.4, None 
-PSR B1257+12 d, 0.012, None, None, 1.4, None 
-PSR B1257+12 d, 0.012, None, None, 1.4, None 
 PSR B1257+12 d, 0.012, None, None, 1.4, None 

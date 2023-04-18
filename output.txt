@@ -9,7 +9,7 @@ France, 4.0
 Egypt, 4.0
 Australia, 4.0
 Great Britain, 3.6666666666666665
-USA, 3.4
+USA, 3.4444444444444446
 England, 3.0
 Cyprus, 3.0
 Brazil, 3.0

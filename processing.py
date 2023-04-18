@@ -47,6 +47,18 @@ def main():
         for row in planet_data:
             print (planet_data)
             f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[5]} \n")
+            
+    cur.execute(''' 
+                SELECT planet_name, mass, temperature, host_star_temperature, host_star_mass, radius
+                FROM planets
+                WHERE radius > 0.01
+                ORDER BY radius DESC
+                ''')
+    planet_rad = cur.fetchall()
+    with open('planet_radius.txt', 'w') as f:
+        f.write("Planet Name, Mass, Temperature, Host Star Temperature, Host Star Mass, Radius\n")
+        for row in planet_rad:
+            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[5]} \n")
 
     origins = [row[0] for row in origin_health_data]
     avg_health = [row[1] for row in origin_health_data]
