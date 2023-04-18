@@ -29,9 +29,9 @@ def main():
     origin_health_data = cur.fetchall()
 
     with open('output.txt', 'w') as f:
-        f.write("Origin, Average Health\n")
+        f.write("Origin, Average Health, Max Weight, Name, General Health\n")
         for row in origin_health_data:
-            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}")
+            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}\n")
 
     cur.execute('''
                 SELECT planet_name, mass, temperature, host_star_temperature, host_star_mass, radius
@@ -97,10 +97,11 @@ def main():
     plt.savefig('visualization3.png')
     plt.show()
 
-    plt.scatter(planet_radius, planet_mass, color='purple')
-    plt.xlabel('Planet Radius')
+    plt.scatter(planet_temp, planet_mass)
+    plt.xlabel('Planet Temp')
     plt.ylabel('Planet Mass')
-    plt.title("Planet Mass Compared to it's Radius")
+    plt.ylim(0, 3)
+    plt.title('Percentage Distribution of Number of Planets by Temperature Range')
     plt.savefig('visualization4.png')
     plt.show()
 
