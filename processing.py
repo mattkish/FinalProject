@@ -53,7 +53,6 @@ def main():
     avg_health = [row[1] for row in origin_health_data]
     max_weight = [row[2] for row in origin_health_data]
     cat_name = [row[3] for row in origin_health_data]
-    cat_health = [row[4] for row in origin_health_data]
     print(origin_health_data)
     plt.bar(origins, avg_health, color='purple')
     plt.xlabel('Origin')
@@ -66,8 +65,10 @@ def main():
 
     plt.stem(cat_name, max_weight)
     plt.axis('equal')
-    plt.title('Percentage Distribution of Average Health by Cat Type')
-    plt.tight_layout()
+    plt.title('Maximum Weight For Each Cat Type')
+    plt.xticks(range(len(cat_name)), cat_name, rotation=90)
+    plt.tick_params(axis='x', labelsize=6)
+
     plt.savefig('visualization2.png')
     plt.show()
     # Part 4 - Visualize the data for planets
@@ -81,8 +82,7 @@ def main():
     plt.scatter(planet_mass, star_mass)
     plt.xlabel('Planet Mass')
     plt.ylabel('Star Mass')
-    plt.title("How a Star's Mass effects Planet Mass")
-    plt.tight_layout()
+    plt.title("How a Star's Mass affects Planet Mass")
     plt.savefig('visualization3.png')
     plt.show()
 
@@ -91,7 +91,6 @@ def main():
     plt.ylabel('Planet Mass')
     plt.ylim(0, 3)
     plt.title('Percentage Distribution of Number of Planets by Temperature Range')
-    plt.tight_layout()
     plt.savefig('visualization4.png')
     plt.show()
 
