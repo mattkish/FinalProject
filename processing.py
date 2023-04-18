@@ -10,13 +10,13 @@ def main():
     # putting 100 things in planet database
     for i in range(0, 100):
         planet_data.append(api_planets(i))
-    # x = api_planets(3)
-    # planet_data += x[:10]
+    # 1 at a time
     add_planet_data(cur, conn, planet_data)
     
     for i in range(0, 5):
         cat_data += (api_cat(i))
     add_cat_data(cur, conn, cat_data)
+    #20 at a time
 
     cur.execute('''
                 SELECT origins.origin, AVG(cats.general_health) as average_health, max_weight, cat_name, general_health

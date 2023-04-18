@@ -1,19 +1,2 @@
 Origin, Average Health
-California, USA, 5.0
-United States and Canada, 4.0
-United States, 4.0
-Saudi Arabia, 4.0
-Kentucky, USA, 4.0
-Greece, 4.0
-France, 4.0
-Egypt, 4.0
-Australia, 4.0
-Great Britain, 3.6666666666666665
-USA, 3.4444444444444446
-England, 3.0
-Cyprus, 3.0
-Brazil, 3.0
-Unknown, 2.0
-United States and Thailand, 2.0
-Southeast Asia, 2.0
-Burma and Thailand, 2.0
+California, USA, 5.0, 10, American Curl, 5United States and Canada, 4.0, 13, American Bobtail, 4United States, 4.0, 12, American Shorthair, 4Saudi Arabia, 4.0, 16, Arabian Mau, 4Kentucky, USA, 4.0, 15, Bombay, 4Greece, 4.0, 10, Aegean, 4France, 4.0, 16, Chartreux, 4Egypt, 4.0, 30, Chausie, 4Australia, 4.0, 15, Australian Mist, 4Great Britain, 3.6666666666666665, 10, Asian, 4USA, 3.4444444444444446, 17, Bengal Cats, 3England, 3.0, 13, Burmilla, 3Cyprus, 3.0, 24, Aphrodite Giant, 3Brazil, 3.0, 22, Brazilian Shorthair, 3Unknown, 2.0, 12, Birman, 2United States and Thailand, 2.0, 10, Balinese, 2Southeast Asia, 2.0, 10, Abyssinian, 2Burma and Thailand, 2.0, 12, Burmese, 2
