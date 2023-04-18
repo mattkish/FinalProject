@@ -10,7 +10,7 @@ def main():
     # putting 100 things in planet database
     for i in range(0, 100):
         planet_data.append(api_planets(i))
-    # x = api_planets(3)
+    # x = api_planets(3) 
     # planet_data += x[:10]
     add_planet_data(cur, conn, planet_data)
     
