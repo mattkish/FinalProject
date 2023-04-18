@@ -19,7 +19,7 @@ def main():
         add_cat_data(cur, conn, cat_data)
 
     cur.execute('''
-                SELECT origins.origin, AVG(cats.general_health) as average_health
+                SELECT origins.origin, AVG(cats.general_health) as average_health, max_weight, cat_name, general_health
                 FROM cats
                 JOIN origins ON cats.origin_id = origins.id
                 GROUP BY origins.origin
@@ -35,7 +35,7 @@ def main():
 
 # change this to calculate correlation between mass and radius or something
     cur.execute('''
-                SELECT planet_name, mass, temperature, host_star_temperature, host_star_mass
+                SELECT planet_name, mass, temperature, host_star_temperature, host_star_mass, radius
                 FROM planets
                 ORDER BY mass DESC
                 ''')
@@ -44,14 +44,17 @@ def main():
 
 
     with open('planet_output.txt', 'w') as f:
-        f.write("Planet Name, Mass, Temperature, Host Star Temperature, Host Star Mass\n")
+        f.write("Planet Name, Mass, Temperature, Host Star Temperature, Host Star Mass, Radius\n")
         for row in planet_data:
             print (planet_data)
-            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]} \n")
+            f.write(f"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[5]} \n")
 
     origins = [row[0] for row in origin_health_data]
     avg_health = [row[1] for row in origin_health_data]
-
+    max_weight = [row[2] for row in origin_health_data]
+    cat_name = [row[3] for row in origin_health_data]
+    cat_health = [row[4] for row in origin_health_data]
+    print(origin_health_data)
     plt.bar(origins, avg_health, color='purple')
     plt.xlabel('Origin')
     plt.ylabel('Average Health')
@@ -61,9 +64,9 @@ def main():
     plt.savefig('visualization1.png')
     plt.show()
 
-    plt.pie(avg_health, labels=origins, autopct='%1.1f%%', startangle=90)
+    plt.stem(cat_name, max_weight)
     plt.axis('equal')
-    plt.title('Percentage Distribution of Average Health by Cat Origin')
+    plt.title('Percentage Distribution of Average Health by Cat Type')
     plt.tight_layout()
     plt.savefig('visualization2.png')
     plt.show()
@@ -72,22 +75,21 @@ def main():
     planet_mass = [row[1] for row in planet_data]
     planet_temp = [row[2] for row in planet_data]
     star_temp = [row[3] for row in planet_data]
-    star_mass = [row[3] for row in planet_data]
+    star_mass = [row[4] for row in planet_data]
+    planet_radius = [row[5] for row in planet_data]
 
-    print(len(planet_name))
-    print(len(planet_mass))
     plt.scatter(planet_mass, star_mass)
     plt.xlabel('Planet Mass')
     plt.ylabel('Star Mass')
-    plt.title('How Star Mass effects Planet Mass')
+    plt.title("How a Star's Mass effects Planet Mass")
     plt.tight_layout()
     plt.savefig('visualization3.png')
     plt.show()
-    print(star_temp)
-    print(star_mass)
 
-    plt.bar(planet_temp, star_temp)
-    plt.axis('equal')
+    plt.scatter(planet_temp, planet_mass)
+    plt.xlabel('Planet Temp')
+    plt.ylabel('Planet Mass')
+    plt.ylim(0, 3)
     plt.title('Percentage Distribution of Number of Planets by Temperature Range')
     plt.tight_layout()
     plt.savefig('visualization4.png')
