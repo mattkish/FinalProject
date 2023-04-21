@@ -28,6 +28,12 @@ def create_database(database):
     
     return cur, conn
 
+# def connect_database(database):
+#     path = os.path.dirname(os.path.abspath(__file__))
+#     conn = sqlite3.connect(path+'/'+database)
+#     cur = conn.cursor()
+#     return cur, conn
+
 def api_planets(offset):
     min_mass = 0.01
     api_url = 'https://api.api-ninjas.com/v1/planets?min_mass={}&offset={}'.format(min_mass, offset)
@@ -43,7 +49,7 @@ def api_cat(offset):
     api_url = 'https://api.api-ninjas.com/v1/cats?min_weight={}&offset={}'.format(min_weight, offset)
     response = requests.get(api_url, headers={'X-Api-Key': 'a88gHCFRZ4fM7clDyz+Y/w==6tkJTF9SubqVB3Ds'})
     if response.status_code == requests.codes.ok:
-        x = response.json()
+        x = response.json()[0]
         return x
     else:
         print("Error:", response.status_code, response.text)

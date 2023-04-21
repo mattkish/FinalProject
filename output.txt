@@ -1,2 +1,20 @@
-Origin, Average Health
-California, USA, 5.0, 10, American Curl, 5United States and Canada, 4.0, 13, American Bobtail, 4United States, 4.0, 12, American Shorthair, 4Saudi Arabia, 4.0, 16, Arabian Mau, 4Kentucky, USA, 4.0, 15, Bombay, 4Greece, 4.0, 10, Aegean, 4France, 4.0, 16, Chartreux, 4Egypt, 4.0, 30, Chausie, 4Australia, 4.0, 15, Australian Mist, 4Great Britain, 3.6666666666666665, 10, Asian, 4USA, 3.4444444444444446, 17, Bengal Cats, 3England, 3.0, 13, Burmilla, 3Cyprus, 3.0, 24, Aphrodite Giant, 3Brazil, 3.0, 22, Brazilian Shorthair, 3Unknown, 2.0, 12, Birman, 2United States and Thailand, 2.0, 10, Balinese, 2Southeast Asia, 2.0, 10, Abyssinian, 2Burma and Thailand, 2.0, 12, Burmese, 2
+Origin, Average Health, Max Weight, General Health
+Saudi Arabia, 4.0, 16, 4
+Great Britain, 3.8, 10, 4
+Kentucky, USA, 3.75, 15, 4
+Greece, 3.75, 10, 4
+California, USA, 3.6666666666666665, 10, 5
+USA, 3.5, 17, 3
+Egypt, 3.5, 30, 4
+Burma and Thailand, 3.5, 12, 2
+United States and Thailand, 3.3333333333333335, 10, 2
+France, 3.3333333333333335, 16, 4
+United States, 3.3, 12, 4
+United States and Canada, 3.125, 13, 4
+England, 3.0, 13, 3
+China, 3.0, 12, 3
+Brazil, 3.0, 22, 3
+Southeast Asia, 2.75, 10, 2
+Cyprus, 2.75, 24, 3
+Unknown, 2.6666666666666665, 12, 2
+Australia, 2.6666666666666665, 15, 4

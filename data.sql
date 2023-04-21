@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS planets;
-CREATE TABLE planets (
+
+CREATE TABLE IF NOT EXISTS planets (
     planet_name VARCHAR(60),
     mass REAL,
     radius REAL,
@@ -11,8 +11,8 @@ CREATE TABLE planets (
     host_star_temperature REAL
 );
 
-DROP TABLE IF EXISTS cats;
-CREATE TABLE cats (
+
+CREATE TABLE IF NOT EXISTS cats (
     origin_id INTEGER,
     general_health INTEGER,
     min_weight INTEGER,
@@ -23,8 +23,7 @@ CREATE TABLE cats (
     FOREIGN KEY (origin_id) REFERENCES origins(id)
 );
 
-DROP TABLE IF EXISTS origins;
-CREATE TABLE origins (
+CREATE TABLE IF NOT EXISTS origins (
     id INTEGER,
     origin VARCHAR(60),
     PRIMARY KEY (id)
